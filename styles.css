@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body {
+  background-color: #cccccc;
+}
+
+.player_one, .player_two, .player_three {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.player_one ul {
+  list-style: none;
+  padding: 0;
+}
+
+.player_one ul li {
+  margin-bottom: 10px;
+}
+
+.player_one ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.player_one ul li a:hover {
+  color: #ff0000;
+}
